@@ -1,15 +1,38 @@
 import argparse
 import ast
 from typing import Dict, Union
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 class BaseOptions:
+    """
+
+    This class defines options used during all types of experiments.
+    It also implements several helper functions such as parsing, printing, and saving the options.
+
+    """
+
 
     def __init__(self) -> None:
+
+        """
+        The constructor of the BaseOptions class
+        """
 
         self.parser = argparse.ArgumentParser()
         self.initialized = False
 
     def initialize(self) -> None:
+
+        """
+        Initializes the BaseOption class by adding the arguments to the parser
+
+        returns
+        -------
+        None
+        """
 
         self.parser.add_argument(
             "--experiment_name",
@@ -93,9 +116,19 @@ class BaseOptions:
         ),
 
         self.initialized = True
+        self._is_train = False
 
     
     def parser(self) -> argparse.Namespace:
+
+        """
+        Parses the arguments passed to the script
+        
+        Returns
+        -------
+        argparse.Namespace
+            The parsed arguments
+        """
         if not self.initialized:
             self.initialize()
 
