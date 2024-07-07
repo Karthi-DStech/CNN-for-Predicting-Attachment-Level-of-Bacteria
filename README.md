@@ -1,8 +1,9 @@
 # CNN
 
 
-
-
+- `models/`:
+    - `CNN.py`:
+    - `Networks.py`:
 
 - `options/`:
     - `base_options.py`: Basic Command-line arguments for the training script.
