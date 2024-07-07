@@ -1,9 +1,11 @@
-# CNN
+# CNN-for-Predicting-Attachment-Level-of-Bacteria
 
 
+
+# Coding Structure
 - `models/`:
-    - `CNN.py`:
-    - `Networks.py`:
+    - `CNN.py`: Implementation of CNN Architecture for Supervised-Learning.
+    - `Networks.py`: Implementation of Base Network (parent) definitions and configurations for the CNN architecture.
 
 - `options/`:
     - `base_options.py`: Basic Command-line arguments for the training script.
@@ -16,5 +18,5 @@
     - `utils.py`:  This file contains scripts for various utility functions used in the GAN project.
     - `weights_init.py`: This file contains scripts for weight initialization functions for the GAN architecture.
 
-- `train.py`: Script for training the model without TensorBoard logging.
+- `train.py`: Script for training the model.
 - `call_methods.py`: This file contains scripts for dynamically creating models, networks, datasets, and data loaders based on provided names and options.
