@@ -1,6 +1,6 @@
 # CNN-for-Predicting-Attachment-Level-of-Bacteria
 
-
+This repository implements a Convolutional Neural Network (CNN) for classifying and predicting biomaterial attachment levels. It supports both regression and classification tasks, enabling precise analysis of biomaterial interactions. The CNN model is designed to handle complex data, providing accurate predictions and classifications to advance research in biomaterial science.
 
 # Coding Structure
 - `models/`:
