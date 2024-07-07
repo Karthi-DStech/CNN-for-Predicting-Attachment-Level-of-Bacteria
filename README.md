@@ -10,9 +10,8 @@
 
 - `utils/`:
     - `images_utils.py`: Utilities for image handling.
-    - `custom_layers.py`: This file contains scripts for custom layers used in the GAN architecture.
-    - `losses.py`: This file contains scripts for loss functions used in the GAN training process.
-    - `tb_visualizer.py`: This file provides scripts for a TensorBoard visualizer for monitoring GAN training progress.
+
+    - `visualizer.py`: This file provides scripts for a TensorBoard visualizer for tracking training progress.
     - `utils.py`:  This file contains scripts for various utility functions used in the GAN project.
     - `weights_init.py`: This file contains scripts for weight initialization functions for the GAN architecture.
 
