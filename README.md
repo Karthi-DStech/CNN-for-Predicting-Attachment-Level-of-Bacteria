@@ -2,6 +2,8 @@
 
 This repository implements a Convolutional Neural Network (CNN) for classifying and predicting biomaterial attachment levels. It supports both **regression and classification tasks**, enabling precise analysis of biomaterial interactions. The CNN model is designed to handle complex data, providing accurate predictions and classifications to advance research in biomaterial science.
 
+**This Highly scalable framework allows for easy addition of more combinations in the future and can be seamlessly transferred to other projects.**
+
 ## Project Structure
 - `models/`:
     - `CNN.py`: Implementation of CNN Architecture for Supervised-Learning.
